@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import Product from "./Product";
 import axios from "axios";
 import { setProducts } from "../redux/actions/productActions";
+import { Link } from "react-router-dom";
 
 export default function ProductList() {
   const products = useSelector((state) => state.allProducts.products);
