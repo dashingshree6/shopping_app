@@ -20,7 +20,6 @@ export default function ProductList() {
   useEffect(() => {
     fetchProducts();
   });
-  console.log(products);
   return (
     <div className="ui grid container">
       <Product />

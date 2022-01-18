@@ -8,7 +8,7 @@ export default function Product() {
     const { id, title, price, category, image } = product;
     return (
       <div className="four column wide" key={id}>
-        <div className="ui link card">
+        <div className="ui link cards">
           <div className="card">
             <div className="image">
               <img src={image} alt={title} />
@@ -23,9 +23,5 @@ export default function Product() {
       </div>
     );
   });
-  return (
-    <div>
-      <renderList />
-    </div>
-  );
+  return <div>{renderList}</div>;
 }
