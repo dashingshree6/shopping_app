@@ -20,7 +20,7 @@ export default function ProductList() {
 
   useEffect(() => {
     fetchProducts();
-  });
+  }, []);
   return (
     <div className="ui grid container">
       <Product />
