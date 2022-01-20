@@ -1,2 +1,2 @@
 # shopping_app
-Created with CodeSandbox
+Simple shopping component created with 
